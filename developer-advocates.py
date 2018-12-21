@@ -2,7 +2,7 @@ import urllib2
 from bs4 import BeautifulSoup
 import html2text
 
-page = urllib2.urlopen('https://developer.ibm.com/profiles/)
+page = urllib2.urlopen('https://developer.ibm.com/profiles/')
 soup = BeautifulSoup(page, 'html.parser')
 
 # find top buttons
