@@ -1,3 +1,6 @@
+# A more in depth exercise in using BeautifulSoup to extract elements
+# from webpages.
+
 import urllib2
 from bs4 import BeautifulSoup
 import html2text
